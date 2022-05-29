@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --lg-main: rgb(133, 32, 51);
+  --lg-secondary: rgb(244, 45, 68);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #000;
+  font-size: 1rem;
+  margin: 1rem;
+  color: #FFF;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin-top: 0.3rem;
+  color: var(--lg-main);
+}
+
+a {
+  text-decoration: none;
+  color: #FFF
+}
+
+img {
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.container-logo {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.input {
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+  border: none;
+  margin: 0.5rem;
+  padding-left: 1rem;
+}
+
+.btn {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+  border: none;
+  margin: 0.5rem;
+  background-color: var(--lg-main);
+  color: #FFF;
+}
+
+.btn:active {
+  background-color: var(--lg-secondary);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  background-color: var(--lg-main);
+  width: max-content;
+  height: 2rem;
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  border-radius: 0.185rem 1rem 1rem 0.185rem;
+}
+
+.links:hover {
+  background-color: var(--lg-secondary);
+}
+
+.sub-group {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: max-content;
+  height: 2rem;
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  border-radius: 0.185rem 1rem 1rem 0.185rem;
+}
+
+.sub-group:hover {
+  background-color: var(--lg-secondary);
+}
+
+.sub-group-text {
+  color: var(--lg-main);
+}
